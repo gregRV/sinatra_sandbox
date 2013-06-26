@@ -1,0 +1,38 @@
+<form action="/cool_url" method="post">
+  <p>Message</p>
+  <input type="text" name="message">
+  <br><br>
+
+  <p>Text Area</p>
+  <textarea cols='40' rows='5' name='textbox'>
+  </textarea>
+  <br><br>
+
+  <p>Radio Buttons</p>
+  <input type="radio" name="fruit" value="apple">Apple<br>
+  <input type="radio" name="fruit" value="banana">Banana<br>
+  <input type="radio" name="fruit" value="orange">Orange<br>
+  <br><br>
+
+  <p>Check Boxes</p>
+  <input type="checkbox" name="sex" value="male">Male<br>
+  <input type="checkbox" name="sex" value="female">Female<br>
+  <br><br>
+
+  <p>Selection Box</p>
+  <select name="drink">
+    <option>Milk</option>
+    <option>Coffee</option>
+    <option>Tea</option>
+  </select>
+  <br><br>
+
+  <!-- Saves the next 3 as another hash inside params -->
+  <input type="text" name="post[title]">
+  <input type="text" name="post[price]">
+  <textarea name="post[description]"></textarea>
+  <br><br>
+
+  <input type="submit">
+  <br><br>
+</form>
